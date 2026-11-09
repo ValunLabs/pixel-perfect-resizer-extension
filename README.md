@@ -8,7 +8,7 @@ Right-click any image on the web and resize it instantly with **[PixelPerfectRes
 - **Quick popup** — click the toolbar icon to:
   - **Open Web Resizer** — jump straight to [pixelperfectresizer.com](https://pixelperfectresizer.com/).
   - **Quick Resize Image URL** — paste an image URL and send it to the resizer in one click.
-- **Privacy first** — no tracking, no data collection, minimal permissions (`contextMenus`, `activeTab`).
+- **Privacy first** — no tracking, no data collection, a single permission (`contextMenus`).
 - **Manifest V3** — built on Chrome's current extension platform.
 
 ## Install

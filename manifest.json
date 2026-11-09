@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "description": "Right-click any image to resize it with PixelPerfectResizer — 100% client-side, private, no uploads.",
   "homepage_url": "https://pixelperfectresizer.com/",
-  "permissions": ["contextMenus", "activeTab"],
+  "permissions": ["contextMenus"],
   "background": {
     "service_worker": "background.js"
   },
