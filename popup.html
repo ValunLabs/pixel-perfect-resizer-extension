@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>PixelPerfect Image Resizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="brand">
+      <img src="icons/icon48.png" alt="" width="32" height="32" />
+      <div>
+        <h1>PixelPerfect</h1>
+        <p>Image &amp; photo resizer</p>
+      </div>
+    </header>
+
+    <button id="open-site" class="btn primary" type="button">Open Web Resizer</button>
+
+    <form id="quick-form" class="card" novalidate>
+      <label for="img-url">Quick Resize Image URL</label>
+      <input id="img-url" type="url" placeholder="https://example.com/photo.jpg" autocomplete="off" required />
+      <p id="error" class="error" role="alert" hidden>Enter a valid http(s) image URL.</p>
+      <button class="btn" type="submit">Resize Image</button>
+    </form>
+
+    <footer>
+      100% Client-Side &amp; Privacy First — Powered by
+      <a href="https://pixelperfectresizer.com/" target="_blank" rel="noopener">PixelPerfectResizer</a>
+    </footer>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
