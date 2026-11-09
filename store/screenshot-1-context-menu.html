@@ -1,0 +1,48 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+  .page { padding: 28px 36px; }
+  .page h2 { margin: 0 0 6px; font-size: 24px; }
+  .page .meta { color: #94a3b8; font-size: 13px; margin-bottom: 18px; }
+  .line { height: 10px; border-radius: 5px; background: #e2e8f0; margin-bottom: 10px; }
+  .photo { width: 380px; height: 250px; border-radius: 10px; margin-top: 18px; position: relative; overflow: hidden;
+    background: linear-gradient(180deg, #fbbf24 0%, #fb923c 38%, #f472b6 62%, #7c3aed 100%); }
+  .photo::before { content: ""; position: absolute; left: 50%; top: 42%; width: 90px; height: 90px; margin-left: -45px; border-radius: 50%; background: #fef3c7; opacity: .9; }
+  .photo::after { content: ""; position: absolute; inset: auto -10% -30% -10%; height: 60%; background: #1e1b4b; border-radius: 50% 50% 0 0; }
+  .menu { position: absolute; left: 330px; top: 250px; width: 250px; background: #fff; border-radius: 8px; padding: 6px 0;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, .22), 0 0 0 1px rgba(15, 23, 42, .08); font-size: 14px; }
+  .menu div { padding: 7px 16px; color: #1f2937; }
+  .menu hr { border: 0; border-top: 1px solid #e5e7eb; margin: 5px 0; }
+  .menu .hit { display: flex; align-items: center; gap: 10px; background: #2563eb; color: #fff; font-weight: 600; }
+  .menu .hit img { width: 16px; height: 16px; border-radius: 3px; }
+  .cursor { position: absolute; left: 318px; top: 236px; width: 0; height: 0; border-left: 9px solid transparent; border-right: 9px solid transparent; border-bottom: 22px solid #111; transform: rotate(-30deg); }
+</style></head>
+<body><div class="stage">
+  <div class="copy">
+    <div class="logo"><img src="../icons/icon128.png" alt="">PixelPerfect</div>
+    <h1>Right-click any image. <span>Resize it.</span></h1>
+    <p>Choose “Resize with PixelPerfect” on any picture on the web and it opens ready to resize at pixelperfectresizer.com.</p>
+    <span class="pill">🔒 100% client-side — no uploads</span>
+  </div>
+  <div class="window">
+    <div class="chrome-bar"><i></i><i></i><i></i><div class="url">travel-blog.example/sunset-photos</div><div class="ext"><img src="../icons/icon48.png" alt=""></div></div>
+    <div class="page">
+      <h2>10 sunsets worth the trip</h2>
+      <div class="meta">Photo story · 4 min read</div>
+      <div class="line" style="width: 92%"></div>
+      <div class="line" style="width: 78%"></div>
+      <div class="photo"></div>
+    </div>
+    <div class="menu">
+      <div>Open image in new tab</div>
+      <div>Save image as…</div>
+      <div>Copy image</div>
+      <div>Copy image address</div>
+      <hr>
+      <div class="hit"><img src="../icons/icon16.png" alt="">Resize with PixelPerfect</div>
+      <hr>
+      <div>Inspect</div>
+    </div>
+    <div class="cursor"></div>
+  </div>
+</div></body></html>

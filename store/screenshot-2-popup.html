@@ -1,0 +1,29 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="base.css">
+<style>
+  .page { padding: 28px 36px; opacity: .45; }
+  .line { height: 12px; border-radius: 6px; background: #e2e8f0; margin-bottom: 14px; }
+  .block { height: 220px; border-radius: 10px; background: #e2e8f0; margin: 22px 0; }
+  .popup { position: absolute; right: 14px; top: 50px; width: 320px; height: 330px; border: 0; border-radius: 10px; background: #fff;
+    box-shadow: 0 16px 40px rgba(15, 23, 42, .25), 0 0 0 1px rgba(15, 23, 42, .08); }
+</style></head>
+<body><div class="stage">
+  <div class="copy">
+    <div class="logo"><img src="../icons/icon128.png" alt="">PixelPerfect</div>
+    <h1>Resize from the <span>toolbar</span></h1>
+    <p>Open the web resizer in one click, or paste an image URL and jump straight to resizing.</p>
+    <span class="pill">🔒 Private by design — images stay in your browser</span>
+  </div>
+  <div class="window">
+    <div class="chrome-bar"><i></i><i></i><i></i><div class="url">news.example/article</div><div class="ext"><img src="../icons/icon48.png" alt=""></div></div>
+    <div class="page">
+      <div class="line" style="width: 60%; height: 22px"></div>
+      <div class="line" style="width: 90%"></div>
+      <div class="line" style="width: 84%"></div>
+      <div class="block"></div>
+      <div class="line" style="width: 88%"></div>
+      <div class="line" style="width: 70%"></div>
+    </div>
+    <iframe class="popup" src="../popup.html"></iframe>
+  </div>
+</div></body></html>
